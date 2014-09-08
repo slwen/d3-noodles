@@ -1,1 +1,1 @@
-var dataset=[5,10,15,20,25];d3.select("body").selectAll("div").data(dataset).enter().append("div").attr("class","bar").style("height",function(t){return 5*t+"px"});
+var dataset=[22,16,39,28,29,31,7,12,36],svg=d3.select("body").append("svg"),w=800,h=450;svg.attr("width",w),svg.attr("height",h);var circles=svg.selectAll("circle").data(dataset).enter().append("circle");circles.attr("cx",function(t,r){return 50*r+70}).attr("cy",h/2).attr("r",function(t){return t}).attr("opacity","0.75");

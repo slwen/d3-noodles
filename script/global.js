@@ -11,7 +11,6 @@ d3.select('body').selectAll('div')
 		return d * 5 + 'px';
 	});
 
-
 // SVG Circle Chart
 // var svg = d3.select('body').append('svg');
 // var w = 800;

@@ -1,1 +1,0 @@
-var dataset=[22,16,39,28,29,31,7,12,36];d3.select("body").selectAll("div").data(dataset).enter().append("div").attr("class","bar").style("height",function(t){return 5*t+"px"});
